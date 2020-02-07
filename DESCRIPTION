@@ -1,10 +1,10 @@
 Package: BiomassChina
 Type: Package
 Title: Calculating biomass by using allometric equations
-Version: 0.1.0
+Version: 0.2.0
 Author: Xiongzhi Cao <cao_xiongzhi@foxmail.com>, Ji Zheng <zhengjiji456@sjtu.edu.cn>
 Maintainer: Xiongzhi Cao <cao_xiongzhi@foxmail.com>
-Depends: R (>= 3.1.0)
+Depends: R (>= 3.6.0)
 Description: Calculating biomass of dominant plant species by using allometric equations of nine major provinces in the Yangtze river basin
 License: GPL
 Encoding: UTF-8
@@ -13,3 +13,5 @@ BugReports: https://github.com/RapCao/BiomassChina/issues
 NeedsCompilation: no
 LazyData: true
 RoxygenNote: 7.0.2
+Suggests: testthat, xlsx
+Packaged: 2020-02-07 10:28:49 UTC; Administrator
